@@ -1,0 +1,13 @@
+.about_me {
+  padding: 3rem;
+}
+.about_me__title {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.about_me__paragraph {
+  margin-bottom: 8rem;
+}

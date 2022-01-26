@@ -1,0 +1,17 @@
+.social_network_bar__container {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 3.5em;
+  margin-bottom: 4rem;
+}
+
+.social_network_bar__container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social_network_bar__icon {
+  font-size: 1.5rem;
+}

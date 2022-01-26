@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  top: 0.5rem;
+  justify-content: space-between;
+  border: 1.7px solid #000;
+  border-radius: 4px;
+}
+
+.navbar__logo {
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.navbar__navigation {
+  display: flex;
+}
+
+.navbar__navigation li {
+  margin: 0 1rem;
+}
+
+.navbar__navigation li a {
+  text-decoration: none;
+}
+
+.navbar__navigation li:hover {
+  text-decoration: underline;
+  color: #000;
+}
