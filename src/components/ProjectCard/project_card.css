@@ -116,6 +116,11 @@
     width: 350px;
     margin: 0 auto;
   }
+  .project_card__container {
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .project_card__description_container {
     width: 400px;
   }

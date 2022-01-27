@@ -1,6 +1,7 @@
 import './navbar.css'
 import Sidebar from '../Sidebar'
 import useToggleMenu from '../_hooks/useToggleMenu'
+import { HiMenuAlt3 } from 'react-icons/hi'
 
 export default function Index() {
   const { isToggleMenu, handleToggleMenu } = useToggleMenu()
@@ -14,7 +15,7 @@ export default function Index() {
           <li><a href='/'>Productos</a></li>
           <li><a href='/'>Contactame</a></li>
         </ul>
-        <button onClick={handleToggleMenu} className='navbar__menu'>menu</button>
+        <HiMenuAlt3 onClick={handleToggleMenu} className='navbar__menu' />
       </nav>
       <Sidebar isToggleMenu={isToggleMenu} handleToggleMenu={handleToggleMenu} />
     </header>
