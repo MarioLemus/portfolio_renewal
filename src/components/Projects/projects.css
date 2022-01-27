@@ -13,11 +13,11 @@
   }  
 }
 
-@media (max-width: 354px) {
+@media (max-width: 370px) {
   .projects__title {
     font-size: 2rem;
     color: #fff;
     margin-bottom: -8rem;
-    margin-left: -3rem;
+    margin-left: -4rem;
   }  
 }
