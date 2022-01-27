@@ -1,5 +1,6 @@
 .about_me {
-  padding: 3rem;
+  padding: 3rem 0;
+  box-sizing: border-box;
 }
 .about_me__title {
   margin-top: 6rem;
@@ -10,4 +11,16 @@
 
 .about_me__paragraph {
   margin-bottom: 8rem;
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.7;
+}
+
+@media (max-width: 500px) {
+  .about_me__title {
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+  }
 }

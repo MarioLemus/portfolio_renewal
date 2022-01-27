@@ -10,8 +10,16 @@ export default function Index() {
       </header>
       <section>
         <p className='about_me__paragraph'>
-          Nacido en 1998, en 2013 fue mi primer contacto más profundo para entender como las computadoras funcionan, en ese entonces estaba maravillado por la complejidad de estos sistemas que facilitan nuestra vida.
-          desde entonces, /(mis 14 años)/ he sido fanatico de la revolucion tecnologica que se vive, basicamente a diario, lamentablemente debido a muchas circunstancias en el 2017, termine estudiando una carrera que al inicio no me llamaba la atencion pero que con el paso termine amando, Licenciatura en idiomas, para ser especifico, lamentable mente por causa del Covid-19, ya no pude continuar mi carrera, pero al afrontar esto, redescubri mi amor por la informatica, asi que decidi formarme durante el 2020 como programador frontend de manera autodidacta, aunque ha sido un camino muy solitario y duro ha valido la pena!
+          Soy Mario Lemus, un fanático de las nuevas tecnologías.
+          <br />
+          <br />
+          Déjame te cuento, mi primer contacto con la tecnología fue aproximadamente en 2006 cuando estaba en 6 grado y desde entonces me he vuelto fanático de la revolución tecnológica que se vive básicamente a diario.
+          <br />
+          <br />
+          Oficialmente me adentre en el mundo de la informática en el 2013, a mis 12 años aproximadamente al participar en un curso técnico sobre mantenimiento de computadoras, el cual me ayudo a adquirir muchos y nuevos conceptos para entender las computadoras y todo el ecosistema que las rodean con mayor profundidad y admiración.
+          <br />
+          <br />
+          Lamentablemente, debido a muchas circunstancias en el 2017, termine estudiando una carrera que al inicio no me llamaba la atención, pero que con el paso del tiempo termine queriendo, Licenciatura en idiomas, para ser especifico, lastimosamente por causa del Covid-19, ya no pude continuar mi carrera, pero al afrontar esto, redescubrí mi amor por la Informática, así que decidí formarme durante el 2020 como programador frontend de manera autodidacta, aunque ha sido un camino muy duro y solitario, ¡ha valido la pena!
         </p>
       </section>
     </section>

@@ -1,8 +1,9 @@
 .navbar {
   background-color: #fff;
   display: flex;
-  position: relative;
-  top: 0.5rem;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
   justify-content: space-between;
   border: 1.7px solid #000;
   border-radius: 4px;
@@ -11,6 +12,11 @@
 .navbar__logo {
   margin: 1rem;
   font-weight: bold;
+}
+
+.navbar__navigation_container {
+  display: flex;
+  align-items: center;
 }
 
 .navbar__navigation {
@@ -28,4 +34,29 @@
 .navbar__navigation li:hover {
   text-decoration: underline;
   color: #000;
+}
+
+.navbar__menu {
+  display: none;
+}
+
+@media (max-width: 800px) { 
+  .navbar__navigation li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .navbar__navigation {
+    display: none;
+  }
+  .navbar__menu {
+    display: inline-block;
+  }
 }

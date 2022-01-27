@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AboutMe from '../components/AboutMe'
 import Projects from '../components/Projects'
+import ContactMe from '../components/ContactMe'
 import './home.css'
 
 export default function Index() {
@@ -18,6 +19,9 @@ export default function Index() {
       </div>
       <div className='home__projects'>
         <Projects />
+      </div>
+      <div className='home__contact_me'>
+        <ContactMe />
       </div>
     </section>
   )
