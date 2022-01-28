@@ -13,6 +13,7 @@ export default function Index() {
         </h1>
       </section>
       <SocialNetworkBar />
+      <img className='hero__img' src='frontend_dev.png' />
     </article>
   )
 }

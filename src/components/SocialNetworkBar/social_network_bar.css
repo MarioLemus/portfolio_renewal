@@ -5,6 +5,7 @@
   margin: 0 auto;
   margin-top: 3.5em;
   margin-bottom: 4rem;
+  z-index: 1;
 }
 
 .social_network_bar__container a {

@@ -3,7 +3,7 @@
 }
 
 .hero__subtitle {
-  margin-top: 4.5rem;
+  margin-top: 8rem;
   font-size: 1.1rem;
   color: rgb(125, 117, 117);
   font-weight: normal;
@@ -22,7 +22,16 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   -webkit-text-stroke: 0.07px rgb(1, 0, 0);
+  margin-bottom: -1rem;
 } 
+
+.hero__img {
+  margin-top: -4rem;
+  width: 100%;
+  object-fit: scale-down;
+  height: 20rem;
+  opacity: 0.6;
+}
 
 @media (max-width: 800px) {
   .hero {
