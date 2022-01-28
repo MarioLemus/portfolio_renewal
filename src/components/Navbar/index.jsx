@@ -11,9 +11,9 @@ export default function Index() {
       <p className='navbar__logo'>Mario Lemus</p>
       <nav className='navbar__navigation_container'>
         <ul className='navbar__navigation'>
-          <li><a href='/'>Sobre mi</a></li>
+          <li><a href='/'>Sobre mí</a></li>
           <li><a href='/'>Productos</a></li>
-          <li><a href='/'>Contactame</a></li>
+          <li><a href='/'>Contácteme</a></li>
         </ul>
         <HiMenuAlt3 onClick={handleToggleMenu} className='navbar__menu' />
       </nav>

@@ -89,6 +89,7 @@
   .project_card__image {
     object-fit: contain;
     width: 450px;
+    height: 17rem;
   }
   .project_card__container {
     margin: 10rem 0;

@@ -4,7 +4,7 @@ import ProjectCard from '../ProjectCard'
 const cardsData = [
   {
     id: '1',
-    title: 'Landing page para una empresa de embutidos!',
+    title: 'Landing page para una empresa de embutidos',
     alt: 'ham_portfolio',
     pageUrl: 'https://food-company-landing-page.vercel.app/',
     pageName: 'food company si-ham',
