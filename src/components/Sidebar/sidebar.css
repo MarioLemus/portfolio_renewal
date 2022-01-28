@@ -16,12 +16,13 @@
   top: 0;
   right: 0;
   background-color: #fff;
-  border: 1.7px solid #000;
+  border-top: 1.7px solid #000;
+  border-left: 1.7px solid #000;
   font-size: 1.1rem;
 }
 
 .sidebar__list {
-  margin: 2.5rem 1rem;
+  margin: 4rem 1rem;
   list-style: none;
 }
 
