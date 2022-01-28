@@ -33,7 +33,7 @@ const cardsData = [
 
 export default function Index() {
   return (
-    <section className="container">
+    <section id='products' className="container">
       <header>
         <h2 className="projects__title">Productos</h2>
       </header>

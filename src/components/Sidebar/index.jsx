@@ -13,15 +13,15 @@ export default function Index({ isToggleMenu, handleToggleMenu }) {
         <ul className='sidebar__list'>
           <li className='sidebar__list_element'>
             <MdOutlinePersonOutline className='sidebar__icon' />
-            <a href='/'>Sobre mi</a>
+            <a href='#aboutMe'>Sobre mí</a>
           </li>
           <li className='sidebar__list_element'>
             <AiOutlineFundProjectionScreen className='sidebar__icon' />
-            <a href='/'>Productos</a>
+            <a href='#products'>Productos</a>
           </li>
           <li className='sidebar__list_element'>
             <GrContact className='sidebar__icon' />
-            <a href='/'>Contactame</a>
+            <a href='#contactMe'>Contactame</a>
           </li>
         </ul>
       </div>

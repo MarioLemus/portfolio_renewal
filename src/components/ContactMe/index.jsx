@@ -1,9 +1,9 @@
 import SocialNetworkBar from '../SocialNetworkBar'
 
-export default function Index() {
+export default function Index({ hash }) {
   return (
     <section className="container">
-      <SocialNetworkBar />
+      <SocialNetworkBar hash={hash} />
     </section>
   )
 }

@@ -2,7 +2,7 @@ import './about_me.css'
 
 export default function Index() {
   return (
-    <section className='container about_me'>
+    <section id='aboutMe' className='container about_me'>
       <header>
         <h2 className='about_me__title'>
           ¿Sobre mí?

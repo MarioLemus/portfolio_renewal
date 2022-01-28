@@ -21,7 +21,7 @@ export default function Index() {
         <Projects />
       </div>
       <div className='home__contact_me'>
-        <ContactMe />
+        <ContactMe hash={'contactMe'} />
       </div>
     </section>
   )
