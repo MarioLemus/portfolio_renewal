@@ -5,6 +5,7 @@ import './normalize.css'
 import Home from './Home'
 
 ReactDOM.render(
+
   <React.StrictMode>
     <Home />
   </React.StrictMode>,

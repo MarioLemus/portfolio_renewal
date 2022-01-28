@@ -8,12 +8,21 @@ export default function Index() {
 
   return (
     <header className='container navbar'>
-      <p className='navbar__logo'>Mario Lemus</p>
+      <p className='navbar__logo'>
+        <a href='/'>Mario Lemus</a>
+      </p>
+
       <nav className='navbar__navigation_container'>
         <ul className='navbar__navigation'>
-          <li><a href='#aboutMe'>Sobre mí</a></li>
-          <li><a href='#products'>Productos</a></li>
-          <li><a href='#contactMe'>Contácteme</a></li>
+          <li>
+            <a href='#aboutMe'>Sobre mí</a>
+          </li>
+          <li>
+            <a href='#products'>Productos</a>
+          </li>
+          <li>
+            <a href='#contactMe'>Contácteme</a>
+          </li>
         </ul>
         <HiMenuAlt3 onClick={handleToggleMenu} className='navbar__menu' />
       </nav>

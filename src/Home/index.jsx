@@ -8,6 +8,7 @@ import './home.css'
 export default function Index() {
 
 
+
   return (
     <section>
       <div className='home__navbar_hero_container'>
