@@ -5,9 +5,9 @@ export default function Index({ imgUrl, title, alt, iconOption, pageUrl, pageNam
   return (
     <div className='project_card__container'>
       <div className="project_card">
-        <a className='project_card__image_link' href={pageUrl} title={pageName} target="_blank" rel="noreferrer">
+        {/* <a className='project_card__image_link' href={pageUrl} title={pageName} target="_blank" rel="noreferrer"> */}
           <img className='project_card__image' src={imgUrl} alt={alt} />
-        </a>
+        {/* </a> */}
       </div>
       <h3 className='project_card__title'>{title}</h3>
       <div className='project_card__description_container'>
