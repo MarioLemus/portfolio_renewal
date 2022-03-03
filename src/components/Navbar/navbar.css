@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   justify-content: space-between;
-  border: 2px solid #000;
+  border: 1.5px solid #000;
   border-radius: 4px;
   z-index: 1;
 }
@@ -13,6 +13,7 @@
 .navbar__logo {
   margin: 1rem;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .navbar__logo a {
@@ -31,6 +32,7 @@
 
 .navbar__navigation li {
   margin: 0 1rem;
+  list-style: none;
 }
 
 .navbar__navigation li a {

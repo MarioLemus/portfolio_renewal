@@ -1,5 +1,5 @@
 .home__navbar_hero_container {
-  background-color: rgba(221, 221, 221, 0.139);
+  background-color: rgba(255, 255, 255);
   margin: 0;
   padding: 1.5rem;
   box-sizing: border-box;
@@ -12,7 +12,6 @@
 
 .home__projects {
   overflow-x: hidden;
-  /* height: 60vh; */
   background-color: #02021e;
   padding: 5rem;
 }
